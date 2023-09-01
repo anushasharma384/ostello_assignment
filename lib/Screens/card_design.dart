@@ -122,22 +122,17 @@ class _CardDesignState extends State<CardDesign> {
   ];
 
   get index => null;
-  List<Map<String, dynamic>> _foundcentres = [];
   @override
   void initState() {
     super.initState();
   }
 
   void _runFilter(String enteredKeyword) {
-    List<Map<String, dynamic>>? _results = [];
     if (enteredKeyword.isEmpty) {
-      _results = _allcentres;
     } else {
-      _results = _allcentres;
     }
 
     setState(() {
-      _foundcentres = _results!;
     });
   }
 

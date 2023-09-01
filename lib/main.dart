@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ostello/Screens/card_design.dart';
+import 'package:task/Screens/card_design.dart';
 
 void main() {
   runApp(const MyApp());
